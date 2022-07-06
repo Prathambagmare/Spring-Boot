@@ -13,9 +13,12 @@ Q.4)What is Dependency Injection in Spring?
 Ans: Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. Dependency Injection makes our programming code loosely coupled.
 
 Q.5)What is Spring IoC Container?
-Ans: he IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML file and works accordingly. 
+Ans: The IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML file and works accordingly. 
      The main tasks performed by IoC container are:
      * Instantiate the application class
      * Configure the object
      * Assemble the dependencies between the objects
+
+Q.6)What is autowiring in spring?
+Ans: Autowiring enables the programmer to inject the bean automatically. We don't need to write explicit injection logic.
 
